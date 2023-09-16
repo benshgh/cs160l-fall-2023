@@ -21,13 +21,6 @@ sourceSets {
             srcDirs 'Lab4/src/main/java'
             srcDirs 'Lab5/src/main/java'
             srcDirs 'Lab6/src/main/java'
-            srcDirs 'Lab7/src/main/java'
-            srcDirs 'Lab8/src/main/java'
-            srcDirs 'Lab9/src/main/java'
-            srcDirs 'Lab11/src/main/java'
-            srcDirs 'Lab12/src/main/java'
-            srcDirs 'Lab13/src/main/java'
-            srcDirs 'Lab14/src/main/java'
         }
     }
     
@@ -39,13 +32,6 @@ sourceSets {
             srcDirs 'Lab4/src/test/java'
             srcDirs 'Lab5/src/test/java'
             srcDirs 'Lab6/src/test/java'
-            srcDirs 'Lab7/src/test/java'
-            srcDirs 'Lab8/src/test/java'
-            srcDirs 'Lab9/src/test/java'
-            srcDirs 'Lab11/src/test/java'
-            srcDirs 'Lab12/src/test/java'
-            srcDirs 'Lab13/src/test/java'
-            srcDirs 'Lab14/src/test/java'
         }
     }
 }
