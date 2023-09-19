@@ -11,7 +11,7 @@ class ScholarshipApplicationTest {
     @BeforeEach
     public void init(){
         //TODO uncomment the below line and import the class ScholarShipApplication;
-        testApplication = new ScholarshipApplication();
+        //testApplication = new ScholarshipApplication();
     }
 
     @Test
