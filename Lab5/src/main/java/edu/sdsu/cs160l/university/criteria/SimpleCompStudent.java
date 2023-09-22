@@ -1,6 +1,8 @@
 package edu.sdsu.cs160l.university.criteria;
 
+import edu.sdsu.cs160l.university.course.Course;
 import edu.sdsu.cs160l.university.student.Student;
+import edu.sdsu.cs160l.university.student.StudentMajor;
 
 //TODO Implement a advanced validity criteria with the specs below
 // remove the false value returned and refer to SimpleCompScienceStudent for inspiration
