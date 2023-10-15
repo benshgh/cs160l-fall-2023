@@ -42,9 +42,9 @@ public class MathOperations {
         return  a;
     }
 
-    public int midValue(int a, int b){
-        int sub  = calculator.sub(a, b);
-        int midValue = calculator.div(sub, 2);
+    public double midValue(double a, double b){
+        double add  = calculator.add(a, b);
+        double midValue = calculator.div(add, 2.0);
         return midValue;
     }
 
