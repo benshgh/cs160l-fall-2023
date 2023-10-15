@@ -14,10 +14,9 @@ public class MathOperations {
         this.calculator = new SimpleCalculator();
     }
 
-    // Do not change this to double, let it be int only
-    public int factorial(int n){
-        int factorial = 1;
-        for(int i=2;i<=n;i++){
+    public double factorial(int n){
+        double factorial = 1;
+        for(double i=2;i<=n;i++){
             factorial = calculator.mul(factorial, i);
         }
         return factorial;
