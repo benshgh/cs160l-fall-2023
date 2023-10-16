@@ -38,7 +38,7 @@ public class MathOperations {
         for(int i=1;i<=b;i++){
             res = calculator.mul(res, a);
         }
-        return  a;
+        return  res;
     }
 
     public double midValue(double a, double b){
