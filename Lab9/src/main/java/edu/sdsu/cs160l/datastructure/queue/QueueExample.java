@@ -1,5 +1,7 @@
 package edu.sdsu.cs160l.datastructure.queue;
 
+import jdk.javadoc.internal.tool.JavadocTodo;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -34,5 +36,10 @@ public class QueueExample {
         while (!queue.isEmpty()) {
             System.out.println(queue.poll());
         }
+
+        // TODO - Create a queue of students 5 students
+        // TODO - initialise 5 students and add them to the queue
+        // TODO - remove the first two students and add 1 student
+        // TODO - print the final queue
     }
 }
