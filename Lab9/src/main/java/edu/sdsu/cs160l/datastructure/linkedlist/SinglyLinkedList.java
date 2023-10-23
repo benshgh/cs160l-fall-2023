@@ -5,13 +5,13 @@ public class SinglyLinkedList {
     Node head;
     static class Node {
 
-        String data;
+        String studentName;
         Node next;
 
         // Constructor
         Node(String d)
         {
-            data = d;
+            studentName = d;
             next = null;
         }
     }
@@ -41,10 +41,10 @@ public class SinglyLinkedList {
     public static void printList(SinglyLinkedList list)
     {
         Node currNode = list.head;
-        System.out.print("SinglyLinkedList: ");
+        System.out.print("Student Enrolled are: ");
         // Traversing through the LinkedList
         while (currNode != null) {
-            System.out.print(currNode.data + " ");
+            System.out.print(currNode.studentName + " ");
             currNode = currNode.next;
         }
 
@@ -56,7 +56,7 @@ public class SinglyLinkedList {
     {
         Node currNode = list.head, prev = null;
 
-        if (currNode != null && currNode.data.equals(key)) {
+        if (currNode != null && currNode.studentName.equals(key)) {
             list.head = currNode.next; // Changed head
 
             // Display the message
@@ -66,7 +66,7 @@ public class SinglyLinkedList {
             return list;
         }
 
-        while (currNode != null && !(currNode.data).equals(key)) {
+        while (currNode != null && !(currNode.studentName).equals(key)) {
             prev = currNode;
             currNode = currNode.next;
         }
@@ -77,7 +77,6 @@ public class SinglyLinkedList {
         }
 
         // If key was not present in linked list
-        // currNode should be null
         if (currNode == null) {
             System.out.println(key + " not found");
         }
@@ -106,6 +105,13 @@ public class SinglyLinkedList {
 
         // Print the LinkedList
         printList(list);
+
+        /* TO DO: Create a singly linked list to store course names and perform the following tasks
+         1. Insert course names CS150, CS160, CS210
+         2. Delete CS150, CS160
+         3. Add CS150L, CS160L
+         4. Iterate through the linkedlist and print all the courses
+         */
 
     }
 }

@@ -47,14 +47,6 @@ public class LinkedListExample {
 
         // TO DO: Write your code to add janice to the list in place of jane
 
-        /** solution
-        //updating an element in the linkedlist
-        list.set(1,janice);
-
-        //Accessing elements from the linkedlist
-        for(Student b:list){
-            System.out.println(b.getRedId()+" "+b.getName()+" "+b.getGpa()+" "+b.getLevel()+" "+b.getMajor());
-        } **/
     }
 
 }
