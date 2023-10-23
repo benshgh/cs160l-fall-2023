@@ -106,11 +106,11 @@ public class SinglyLinkedList {
         // Print the LinkedList
         printList(list);
 
-        /* TO DO: Create a singly linked list to store course names and perform the following tasks
-         1. Insert course names CS150, CS160, CS210
-         2. Delete CS150, CS160
-         3. Add CS150L, CS160L
-         4. Iterate through the linkedlist and print all the courses
+        /* TODO: Create a singly linked list to store course names and perform the following tasks
+            1. Insert course names CS150, CS160, CS210
+            2. Delete CS150, CS160
+            3. Add CS150L, CS160L
+            4. Iterate through the linkedlist and print all the courses
          */
 
     }
