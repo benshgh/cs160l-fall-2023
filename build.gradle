@@ -24,6 +24,7 @@ sourceSets {
             srcDirs 'Lab7/src/main/java'
             srcDirs 'Lab8/src/main/java'
             srcDirs 'Lab9/src/main/java'
+            srcDirs 'Lab11/src/main/java'
         }
     }
     
@@ -38,6 +39,7 @@ sourceSets {
             srcDirs 'Lab7/src/test/java'
             srcDirs 'Lab8/src/test/java'
             srcDirs 'Lab9/src/test/java'
+            srcDirs 'Lab11/src/test/java'
         }
     }
 }
@@ -47,6 +49,7 @@ dependencies {
     // Dependencies your project is based on and won't work without any of them
     implementation group: 'org.jongo', name: 'jongo', version: '1.1'
     implementation group: 'org.mongodb', name: 'mongo-java-driver', version: '2.+'
+    implementation 'org.testng:testng:7.1.0'
 
     // Dependencies just for testing and won't be added to your project
     testImplementation group: 'junit', name: 'junit', version: '4.12'
